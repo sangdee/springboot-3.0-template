@@ -26,3 +26,11 @@ decorator:
   datasource:
     p6spy:
       enable-logging: false
+
+logging:
+  level:
+    org:
+      springframework:
+        web:
+          filter: debug
+
